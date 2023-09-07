@@ -1,0 +1,112 @@
+body {
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+header a > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 6rem;
+}
+
+main img {
+    height: 15rem;
+    border-radius: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 
+                7px 7px 20px 0px rgba(0,0,0,.1),    
+                4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+nav ul:hover {
+    box-shadow: inset 4px 4px 5px 0px rgba(0,0,0,.1),
+                7px 7px 20px 0px rgba(0,0,0,.1),    
+                2px 2px 2px 0px rgba(255,255,255,.5);
+}
+
+nav li {
+    display: inline-block;
+    padding: 2rem;
+}
+
+
+nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+}
+
+nav li a:hover {
+    color: rgb(207, 188, 95);
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+.container1 {
+    background:linear-gradient(0deg, rgb(242, 220, 110) 0%, rgb(162, 205, 191) 100%);
+    border-radius: 1rem;
+}
+
+.container1:hover {
+    background: linear-gradient(0deg, rgb(162, 205, 191) 0%, rgb(242, 220, 110) 100%);
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 
+                7px 7px 20px 0px rgba(0,0,0,.1),    
+                4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+.container2 {
+    border-radius: 1rem;
+    padding: 1rem 1rem 0 1rem;
+    margin-top: 1rem;
+}
+
+.container3:hover {
+    background-color: rgb(242, 242, 242);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.paragh {
+    margin: 0 0 25px;
+}
+
+footer {
+    display: flex;
+    background-color: #d9e1df;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+footer div {
+    flex: 1;
+    margin-top: 2rem;
+}
+footer div > img {
+    height: 9rem;
+}
